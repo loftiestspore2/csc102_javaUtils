@@ -46,7 +46,7 @@ public class StaticArrays {
             a+=" "+a1;
         }
         return a.split(" ");
-    }
+    }// not really nessasary
 
     protected static List<String>joiningArrays(String[]s,int[]n){
         String a="";
