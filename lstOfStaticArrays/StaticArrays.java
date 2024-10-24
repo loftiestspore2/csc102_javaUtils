@@ -48,7 +48,7 @@ public class StaticArrays {
         return a.split(" ");
     }
 
-    private static List<String>joiningArrays(String[]s,int[]n){
+    protected static List<String>joiningArrays(String[]s,int[]n){
         String a="";
         for(String s1:s){
             a+=" "+s1;
