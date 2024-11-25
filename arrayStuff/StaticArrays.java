@@ -1,7 +1,7 @@
 /**
  * created by Tebogo Phosa on 21/10/2024
  */
-package lstOfStaticArrays;
+package arrayStuff;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
@@ -48,12 +48,13 @@ public class StaticArrays {
         return a.split(" ");
     }// not really nessasary
 
-    protected static List<String>joiningArrays(String[]s,int[]n){
+    protected static List<String>joiningArrays(Object[]s,Object[]n){
+        /// out of lazyiness the object thing
         String a="";
-        for(String s1:s){
+        for(Object s1:s){
             a+=" "+s1;
         }
-        for(int n1 :n){
+        for(Object n1 :n){
             a+=" "+n1;
         }
         return Arrays.asList(a.split(" "));
