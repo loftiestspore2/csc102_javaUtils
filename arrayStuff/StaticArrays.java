@@ -48,13 +48,12 @@ public class StaticArrays {
         return a.split(" ");
     }// not really nessasary
 
-    protected static List<String>joiningArrays(Object[]s,Object[]n){
-        /// out of lazyiness the object thing
+    protected static List<String>joiningArrays(String[]s,int[]n){
         String a="";
-        for(Object s1:s){
+        for(String s1:s){
             a+=" "+s1;
         }
-        for(Object n1 :n){
+        for(int n1 :n){
             a+=" "+n1;
         }
         return Arrays.asList(a.split(" "));
